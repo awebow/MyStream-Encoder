@@ -11,7 +11,7 @@ MyStream Encoder는 다음 항목들이 설치되어 있고 PATH에 등록되어
 * [Go](https://www.ffmpeg.org)(소스코드에서 빌드/실행 시)
 
 ### 설치
-최신 릴리즈의 바이너리를 다운로드 받거나 다음 명령어를 통해 소스코드를 clone 합니다.
+GitHub [Release 페이지](https://github.com/awebow/MyStream-Encoder/releases)에서 최신 릴리즈의 바이너리를 다운로드 받거나 다음 명령어를 통해 소스코드를 clone 합니다.
 ```console
 $ git clone https://github.com/awebow/MyStream-Encoder
 ```
@@ -114,7 +114,7 @@ aws_secret_access_key = [계정 Secret Key]
 ### 실행
 바이너리를 사용하는 경우는 다음 명령어를 통해 서버를 실행합니다.
 ```console
-$ ./encoder
+$ ./mystream-encoder
 ```
 
 소스 코드를 사용하는 경우에는 다음 명령어를 통해 서버를 실행합니다.
